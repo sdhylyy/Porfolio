@@ -2,6 +2,12 @@
   width: 22rem;
 }
 
+.main-title {
+  font-weight: bold;
+  font-size: 32px;
+  font-family: "Playfair Display", serif;
+}
+
 .horizontal-card {
   width: 24rem;
 }
@@ -85,7 +91,7 @@ a {
 }
 
 .project-card-lg {
-  background-color: #DDD9D7;
+  background-color: #ddd9d7;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,7 +107,7 @@ a {
 }
 
 .project-card {
-  background-color: #DDD9D7;
+  background-color: #ddd9d7;
   display: flex;
   justify-content: center;
   align-items: center;
