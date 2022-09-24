@@ -121,3 +121,7 @@ a {
   font-size: 24px;
   font-family: "Playfair Display", serif;
 }
+
+a {
+  cursor: url("/img/hovericon.png"), auto;
+}
