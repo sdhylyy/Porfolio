@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio website</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-light navbar-light">
+      <div class="container">
+        <a href="#" class="navbar-brand card-title-s">Hi there!</a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#projects" class="nav-link card-title-s">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link card-title-s">Contact Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Banner -->
+    <section class="bg-light text-dark p-5 text-center">
+      <div class="container">
+        <div>
+          <img
+            class="img-fluid w-100 d-none d-sm-block"
+            src="img/banner.svg"
+            alt="banner"
+          />
+          <div>
+            <!-- with animation -->
+            <h1>I create</h1>
+            <h2>Product. Experience. Fun</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Boxes -->
+    <section class="bg-light text-dark p-2" id="projects">
+      <div class="container text-start g-4">
+        <div class="row">
+          <div class="col-md">
+            <div class="card ysl-card border-0 bg-light">
+              <div class="card sizer border-0 bg-light">
+                <img
+                  class="img-radius"
+                  src="https://assets.moveshanghai.com/poolpaihome.jpeg"
+                  alt="dashboard"
+                />
+              </div>
+              <a href="/detail.html">
+                <div class="card-title">
+                  Pool Pai - Look for serenity in city center
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card horizontal-card border-0 bg-light">
+              <div class="card border-0 bg-light">
+                <img
+                  class="img-radius"
+                  src="https://assets.moveshanghai.com/%E8%B4%A6%E5%8F%B7%E8%AE%BE%E7%BD%AE.png"
+                  alt="dashboard"
+                />
+              </div>
+              <div class="card-title">Manage your fitness studio</div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card ysl-card border-0 bg-light">
+              <div class="card border-0 bg-light">
+                <img
+                  class="img-radius"
+                  src="https://assets.moveshanghai.com/apphome.png"
+                  alt="padel"
+                />
+              </div>
+              <div class="card-title">
+                PadelX - Book a Padel court and play a match with friends
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md">
+            <div class="card ysl-card border-0 bg-light">
+              <div class="card border-0 bg-light">
+                <img
+                  class="img-radius"
+                  src="https://assets.moveshanghai.com/IMG_6655.JPG"
+                  alt=""
+                />
+              </div>
+              <div class="card-title">
+                Move SH - Find fitness studios and try them out
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card horizontal-card card-higher border-0 bg-light">
+              <div class="card border-0 bg-light">
+                <video
+                  autoplay
+                  loop
+                  class="embed-responsive embed-responsive-16by9"
+                >
+                  <source
+                    src="http://assets.moveshanghai.com/Beginning-video.mp4"
+                    type="video/mp4"
+                  />
+                </video>
+              </div>
+              <div class="card-title">
+                Saint Laurent - New year product campaign
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card ysl-card card-lower border-0 bg-light">
+              <div class="card border-0 bg-light">
+                <img
+                  class="img-radius"
+                  src="https://assets.moveshanghai.com/Site%20visit%20framework%20(1).jpg"
+                  alt="padel"
+                />
+              </div>
+              <div class="card-title">
+                Cite Visit - Record your thought as architects
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact -->
+    <section class="p-5" id="contact">
+      <div class="container text-start">
+        <div class="row g-4">
+          <div class="col-md">
+            <div class="card-title-xs text-center mb-4">
+              Want to collaborate?
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item border-0">
+                <div class="contact-title">Email</div>
+                <div class="card-title-xs">jastangting@gmail.com</div>
+              </li>
+              <li class="list-group-item border-0">
+                <div class="contact-title">Github</div>
+                <div class="card-title-xs">Picklerick94</div>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-auto">
+            <img
+              class="contact-icon"
+              src="img/icon-small.png"
+              alt="contact-icon"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="p-5 bg-light text-dark text-center position-relative">
+      <div class="container">
+        <p class="lead">Copyright &copy 2022 Jasmine Tang</p>
+        <a href="" class="position absolute bottom-0 end-0 p-5"></a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
