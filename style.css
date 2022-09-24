@@ -21,37 +21,44 @@
 .card-title {
   margin-top: 15px;
   font-size: 23px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .card-title-s {
   margin-top: 4px;
   font-weight: bold;
   font-size: 18px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .card-title-xs {
   margin-top: 4px;
   font-weight: bold;
   font-size: 14px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .contact-title {
   margin-top: 4px;
   font-size: 12px;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
 }
 
 .contact-icon {
   width: 16rem;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .text-underline-hover {
   text-decoration: none;
+  color: inherit;
 }
 
 .text-underline-hover:hover {
   text-decoration: none;
+  color: inherit;
 }
