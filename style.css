@@ -62,3 +62,62 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  justify-content: space-between;
+  background-color: #00806d;
+}
+
+.detail-header {
+  font-size: 48px;
+  color: white;
+  margin-right: 24rem;
+  font-family: "Playfair Display", serif;
+}
+
+.detail-main-content {
+  font-size: 26px;
+  color: white;
+  font-family: "Playfair Display", serif;
+}
+
+.project-card-lg {
+  background-color: #DDD9D7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 58rem;
+  padding: 5rem;
+}
+
+.detail-container {
+  display: flex;
+  flex-direction: row;
+  padding: 5rem;
+  justify-content: space-between;
+}
+
+.project-card {
+  background-color: #DDD9D7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32rem;
+  padding: 5rem;
+}
+
+.detail-container {
+  margin: 0 3rem 3rem 3rem;
+}
+
+.detail-img {
+  width: 14rem;
+}
+
+.detail-content {
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+}
