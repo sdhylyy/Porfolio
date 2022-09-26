@@ -1,5 +1,19 @@
 .ysl-card {
   width: 22rem;
+  animation: fadeIn 2s;
+}
+
+.banner {
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .main-title {
@@ -13,15 +27,16 @@
 }
 
 .card-higher {
-  margin-top: -22rem;
+  margin-top: -11rem;
 }
 
 .card-lower {
-  margin-top: 6rem;
+  margin-top: -2rem;
 }
 
 .img-radius {
   border-radius: 3px;
+  animation: fadeIn 1s;
 }
 
 .card-title {

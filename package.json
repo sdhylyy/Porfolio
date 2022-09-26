@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "Ting Tang's project 1 assignment. The content is my personal porfolio.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Picklerick94/Profolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Picklerick94/Profolio/issues"
+  },
+  "homepage": "https://github.com/Picklerick94/Profolio",
+  "dependencies": {
+    "prettier-package-json": "^2.7.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
+  }
+}
