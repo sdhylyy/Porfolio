@@ -17,6 +17,7 @@ https://www.figma.com/file/UosJ2J8YsbhUnbhIafMK7p/Design-document_Ting-Tang
 https://www.figma.com/file/gwvn1FWU3vJaA6Y0lCSobW/Design_porfolio?node-id=0%3A1
 
 ### Screenshot ###
+#hi, screenshot seems broke, I can't see these Screenshot images
 ![Alt text](https://assets.moveshanghai.com/%E8%AE%BE%E7%BD%AE%E4%B8%BB%E9%A1%B5.png, "Homepage")
 ![Alt text](https://assets.moveshanghai.com/%E8%AE%BE%E7%BD%AE%E8%AF%A6%E6%83%85.png, "Detail")
 
